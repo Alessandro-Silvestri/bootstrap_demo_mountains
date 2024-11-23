@@ -1,0 +1,9 @@
+text-center
+
+p-5 (padding) 
+mb-5 (margin bottom)
+mt-5 (margin top)
+btn btn-primary btn-lg (create a button blue and large)
+text-center
+fs-2 (a quick way to size the font, here: 2rem (32px))
+w-100 (takes 100% of the space, useful for images also)
