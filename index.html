@@ -255,16 +255,101 @@
       <!--contact-->
       <h1 id="contact" class="fs-1 p-5 mb-5 mt-5 text-center">Contact</h1>
       <div class="container bg-dark-subtle text-black p-5 mb-5 mt-5">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, unde.
-          Deserunt, explicabo, incidunt excepturi repellat ipsam asperiores
-          sapiente placeat impedit molestiae aliquid cupiditate nemo quas,
-          veniam vero ipsum debitis ad culpa dolorum facere odio. Ullam
-          quibusdam at esse iusto alias soluta accusantium excepturi, nesciunt
-          delectus similique rerum adipisci quos quo?
-        </p>
+        <form action="" method="POST">
+          <p class="mt-3">Full name</p>
+          <input
+            class="form-control"
+            type="text"
+            placeholder="Full name"
+            aria-label="Full name"
+            required
+          />
 
-        <a href="#" class="btn btn-primary">Email us</a>
+          <p class="mt-3">Email</p>
+          <input
+            class="form-control"
+            type="email"
+            placeholder="Full name"
+            aria-label="Full name"
+            required
+          />
+
+          <label for="inputState" class="form-label mt-3">Subject</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Sales</option>
+            <option>Feedback</option>
+            <option>Partnership</option>
+            <option>Info request</option>
+            <option>Other</option>
+          </select>
+
+
+
+          <div class="d-md-flex justify-content-around">
+
+            <div>
+              <p class="mt-4">
+                I prefer to be contacted by:
+              </p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="contactPreference" id="contactMail" checked>
+                <label class="form-check-label" for="contactMail">
+                  Email
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="contactPreference" id="contactPhone">
+                <label class="form-check-label" for="contactPhone">
+                  Phone
+                </label>
+              </div>
+            </div>
+
+
+            <div>
+              <p class="mt-4">
+                Privacy and Promotions
+              </p>
+              <div class="form-check mt-4">
+                <input class="form-check-input" type="checkbox" value="privacy" id="agreePrivacy" checked>
+                <label class="form-check-label" for="agreePrivacy">
+                  I agree with the GDPR privacy policy.
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="newsPromotions" id="agreeNews">
+                <label class="form-check-label" for="agreeNews">
+                  I agree to receive additional information, newsletters, or promotions.
+                </label>
+              </div>
+            </div>
+
+
+          </div>
+
+
+
+
+
+
+          <p class="mt-4">
+            Message
+          </p>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 130px"></textarea>
+            <label for="floatingTextarea2">Write your message</label>
+          </div>
+
+
+
+
+
+
+
+
+          <button class="btn btn-primary mt-5" type="submit">Submit form</button>
+        </form>
       </div>
       <h1 id="contact" class="fs-1 p-5 mb-5 mt-5 text-center">
         Enjoy your vacation
@@ -299,13 +384,12 @@
               <strong
                 >The staff is available always except during the night.</strong
               >
-              Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Itaque odit delectus vel
-              exercitationem officiis architecto, a eaque aut tenetur, ducimus
-              perspiciatis libero reiciendis, rem quasi! Facere officiis autem
-              quasi iure quia deserunt consequatur facilis accusamus, suscipit
-              libero iste quae omnis.Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Itaque odit delectus vel
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              odit delectus vel exercitationem officiis architecto, a eaque aut
+              tenetur, ducimus perspiciatis libero reiciendis, rem quasi! Facere
+              officiis autem quasi iure quia deserunt consequatur facilis
+              accusamus, suscipit libero iste quae omnis.Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Itaque odit delectus vel
               exercitationem officiis architecto, a eaque aut tenetur, ducimus
               perspiciatis libero reiciendis, rem quasi! Facere officiis autem
               quasi iure quia deserunt consequatur facilis accusamus, suscipit
@@ -332,17 +416,17 @@
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <strong>Yes everithing is included.</strong> Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Itaque odit delectus vel
+              <strong>Yes everithing is included.</strong> Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Itaque odit delectus vel
               exercitationem officiis architecto, a eaque aut tenetur, ducimus
               perspiciatis libero reiciendis, rem quasi! Facere officiis autem
               quasi iure quia deserunt consequatur facilis accusamus, suscipit
-              libero iste quae omnis.Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Itaque odit delectus vel
-              exercitationem officiis architecto, a eaque aut tenetur, ducimus
-              perspiciatis libero reiciendis, rem quasi! Facere officiis autem
-              quasi iure quia deserunt consequatur facilis accusamus, suscipit
-              libero iste quae omnis.
+              libero iste quae omnis.Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Itaque odit delectus vel exercitationem officiis
+              architecto, a eaque aut tenetur, ducimus perspiciatis libero
+              reiciendis, rem quasi! Facere officiis autem quasi iure quia
+              deserunt consequatur facilis accusamus, suscipit libero iste quae
+              omnis.
             </div>
           </div>
         </div>
@@ -365,13 +449,13 @@
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <strong>Yes it is possible with 7 days in advance.</strong> Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Itaque odit delectus vel
-              exercitationem officiis architecto, a eaque aut tenetur, ducimus
-              perspiciatis libero reiciendis, rem quasi! Facere officiis autem
-              quasi iure quia deserunt consequatur facilis accusamus, suscipit
-              libero iste quae omnis.Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Itaque odit delectus vel
+              <strong>Yes it is possible with 7 days in advance.</strong> Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Itaque odit
+              delectus vel exercitationem officiis architecto, a eaque aut
+              tenetur, ducimus perspiciatis libero reiciendis, rem quasi! Facere
+              officiis autem quasi iure quia deserunt consequatur facilis
+              accusamus, suscipit libero iste quae omnis.Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Itaque odit delectus vel
               exercitationem officiis architecto, a eaque aut tenetur, ducimus
               perspiciatis libero reiciendis, rem quasi! Facere officiis autem
               quasi iure quia deserunt consequatur facilis accusamus, suscipit
@@ -398,17 +482,17 @@
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <strong>Yes, for safety reasons</strong> Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Itaque odit delectus vel
+              <strong>Yes, for safety reasons</strong> Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Itaque odit delectus vel
               exercitationem officiis architecto, a eaque aut tenetur, ducimus
               perspiciatis libero reiciendis, rem quasi! Facere officiis autem
               quasi iure quia deserunt consequatur facilis accusamus, suscipit
-              libero iste quae omnis.Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Itaque odit delectus vel
-              exercitationem officiis architecto, a eaque aut tenetur, ducimus
-              perspiciatis libero reiciendis, rem quasi! Facere officiis autem
-              quasi iure quia deserunt consequatur facilis accusamus, suscipit
-              libero iste quae omnis.
+              libero iste quae omnis.Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Itaque odit delectus vel exercitationem officiis
+              architecto, a eaque aut tenetur, ducimus perspiciatis libero
+              reiciendis, rem quasi! Facere officiis autem quasi iure quia
+              deserunt consequatur facilis accusamus, suscipit libero iste quae
+              omnis.
             </div>
           </div>
         </div>
@@ -432,17 +516,17 @@
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <strong>Yes, it is available</strong> Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Itaque odit delectus vel
+              <strong>Yes, it is available</strong> Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Itaque odit delectus vel
               exercitationem officiis architecto, a eaque aut tenetur, ducimus
               perspiciatis libero reiciendis, rem quasi! Facere officiis autem
               quasi iure quia deserunt consequatur facilis accusamus, suscipit
-              libero iste quae omnis.Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Itaque odit delectus vel
-              exercitationem officiis architecto, a eaque aut tenetur, ducimus
-              perspiciatis libero reiciendis, rem quasi! Facere officiis autem
-              quasi iure quia deserunt consequatur facilis accusamus, suscipit
-              libero iste quae omnis.
+              libero iste quae omnis.Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Itaque odit delectus vel exercitationem officiis
+              architecto, a eaque aut tenetur, ducimus perspiciatis libero
+              reiciendis, rem quasi! Facere officiis autem quasi iure quia
+              deserunt consequatur facilis accusamus, suscipit libero iste quae
+              omnis.
             </div>
           </div>
         </div>
@@ -471,12 +555,12 @@
               exercitationem officiis architecto, a eaque aut tenetur, ducimus
               perspiciatis libero reiciendis, rem quasi! Facere officiis autem
               quasi iure quia deserunt consequatur facilis accusamus, suscipit
-              libero iste quae omnis.Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Itaque odit delectus vel
-              exercitationem officiis architecto, a eaque aut tenetur, ducimus
-              perspiciatis libero reiciendis, rem quasi! Facere officiis autem
-              quasi iure quia deserunt consequatur facilis accusamus, suscipit
-              libero iste quae omnis.
+              libero iste quae omnis.Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Itaque odit delectus vel exercitationem officiis
+              architecto, a eaque aut tenetur, ducimus perspiciatis libero
+              reiciendis, rem quasi! Facere officiis autem quasi iure quia
+              deserunt consequatur facilis accusamus, suscipit libero iste quae
+              omnis.
             </div>
           </div>
         </div>
